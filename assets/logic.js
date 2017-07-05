@@ -46,7 +46,7 @@ $("#add-train-btn").on("click", function() {
   // Logs everything to console
   console.log(newTrain.name);
   console.log(newTrain.destination);
-  console.log(firstTrainUnix);
+  console.log(newTrain.firstTrainUnix);
   console.log(newTrain.frequency);
 
   // Alert
